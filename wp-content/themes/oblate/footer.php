@@ -2,7 +2,7 @@
 
 </section>
 
-<?php if ( is_front_page() ) { ?>
+<!-- <?php if ( is_front_page() ) { ?>
 
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -21,7 +21,7 @@
   return t;
 }(document, "script", "twitter-wjs"));</script>
 
-<?php } ?>
+<?php } ?> -->
 
 <?php wp_footer(); ?>
 
