@@ -5,13 +5,14 @@
 	<header class="sidebar-header">
 		<img src="<?php echo site_url(); ?>/wp-content/themes/oblate/images/myhead_512x512.png" class="my-face">
 		<h1><a href="<?php echo site_url(); ?>">Michael ten Den</a></h1>
-		<!-- <p>I'm Michael, a mechatronic engineer, and DIY fanatic.</p> -->
+		<p>Hi, my name is Michael. I consider myself a <a href="http://puttylike.com/terminology/" target="_blank">Multipotentiality</a>. So many interests, lots to discover.</p>
 	</header>
 
 	<nav class="sidebar-nav">
 		<a href="<?php echo site_url(); ?>/me">About Me</a>
 		<!-- <a href="<?php echo site_url(); ?>/work">Professional Work</a> -->
 		<a href="<?php echo site_url(); ?>/projects">Personal Projects</a>
+		<a href="<?php echo site_url(); ?>/now">Now</a>
 	</nav>
 
 	<section class="sidebar-content">

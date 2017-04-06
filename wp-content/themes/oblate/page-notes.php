@@ -13,7 +13,7 @@
 
 <?php endwhile; endif; ?>
 
-<section class="project">
+<section class="notes">
 
 	<div class="large-container">
 		<div class="grid">
@@ -21,16 +21,16 @@
 			<?php $args = array(
 				'order' => 'desc',
 				'posts_per_page' => '-1',
-				'category_name' => 'projects',
+				'category_name' => 'Notes',
 			);
 
-		$projects = new WP_Query( $args );
+			$notes = new WP_Query( $args );
 
-			if ($projects->have_posts() ) :  while ($projects->have_posts() ) :$projects->the_post(); ?>
+			if ( $notes->have_posts() ) :  while ( $notes->have_posts() ) : $notes->the_post(); 
 
-			<?php get_template_part( 'content', get_post_format() ); ?>
+				get_template_part( 'content', get_post_format() );
 
-			<?php	endwhile; ?>
+			endwhile; ?>
 
 		</div>
 
