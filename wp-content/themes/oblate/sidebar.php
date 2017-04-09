@@ -9,10 +9,9 @@
 	</header>
 
 	<nav class="sidebar-nav">
-		<a href="<?php echo site_url(); ?>/me">About Me</a>
-		<!-- <a href="<?php echo site_url(); ?>/work">Professional Work</a> -->
-		<a href="<?php echo site_url(); ?>/projects">Personal Projects</a>
 		<a href="<?php echo site_url(); ?>/now">Now</a>
+		<a href="<?php echo site_url(); ?>/projects">Personal Projects</a>
+		<!-- Add cv<a href="<?php echo site_url(); ?>/cv">Curricilum Vitea</a> -->
 	</nav>
 
 	<section class="sidebar-content">
