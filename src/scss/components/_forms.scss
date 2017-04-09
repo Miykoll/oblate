@@ -1,0 +1,104 @@
+/* Forms */
+
+// Forms Extend
+.forms {
+	padding: .8rem 1rem;
+	border-radius: 6px;
+	border: 1px solid $border;
+	max-width: 100%;
+	font-size: .9rem;
+	-webkit-appearance: none;
+}
+
+// Forms Output CSS
+textarea,
+select,
+[type="email"],
+[type="number"],
+[type="search"],
+[type="text"],
+[type="tel"],
+[type="url"],
+[type="password"] {
+	@extend .forms;
+	&:hover {
+		border: 1px solid darken($border, 10%);
+	}
+	&:focus,
+	&:active {
+		border: 1px solid $link-color;
+		outline: 0;
+	}
+}
+
+textarea {
+	min-height: 100px;
+	width: 100%;
+}
+
+label,
+legend {
+	display: block;
+	margin: .5rem 0 .25rem;
+	font-weight: 700;
+	font-size: 1rem;
+	font-family: $heading-family;
+}
+
+label>.label-body {
+	display: inline-block;
+	margin-left: .5rem;
+	font-weight: normal;
+}
+
+.scroll {
+	overflow-x: scroll;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 1px solid #54c381;
+	border-left: 12px solid #54c381;
+	border-radius: 0;
+	padding: 15px;
+	background: #edf9f2;
+	color: #214e33;
+	font-size: 1rem;
+}
+
+div.wpcf7-validation-errors {
+	border: 1px solid #FFE168;
+	border-left: 12px solid #FFE168;
+	border-radius: 0;
+	padding: 15px;
+	background: #FFF4CA;
+	color: #755D00;
+	font-size: 1rem;
+}
+
+.wpcf7-form br {
+	display: none !important;
+}
+
+span.wpcf7-not-valid-tip {
+	color: $error;
+	font-size: .9rem;
+}
+
+.contact-form {
+	margin-top: 3rem;
+	input[type=text],
+	input[type=email] {
+		width: 100% !important;
+	}
+	p {
+		margin: 0;
+	}
+}
+
+@include small-breakpoint {
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		display: block;
+	}
+}
