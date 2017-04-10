@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<?php if ( !is_single() ) { ?>
-	<meta name="description" content="I'm Tania, a web designer, front end developer, and technical writer.">
+	<meta name="description" content="Hi, my name is Michael. I consider myself a multipotentialite. So many interests, lots to discover.">
 	<?php } ?>
 
 	<?php if ( is_page('projects') ) { ?>
