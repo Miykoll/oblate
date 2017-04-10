@@ -8,6 +8,7 @@
 
 	<?php if ( !is_single() ) { ?>
 	<meta name="description" content="Hi, my name is Michael. I consider myself a multipotentialite. So many interests, lots to discover.">
+	
 	<?php } ?>
 
 	<?php if ( is_page('projects') ) { ?>
