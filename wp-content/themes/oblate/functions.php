@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Functions for taniarascia.com
+ * Functions for michaeltenden.com
  */
 
 /** 
