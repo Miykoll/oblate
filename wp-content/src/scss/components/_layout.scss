@@ -322,6 +322,12 @@ a.close {
 	}
 }
 
+@include small-breakpoint {
+	.sidebar {
+		display:none !important;
+	}
+}
+
 .sidebar {
 	position: fixed;
 	top: 0;
