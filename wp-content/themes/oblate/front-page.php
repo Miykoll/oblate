@@ -5,7 +5,7 @@
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 	<header class="landing-header">
-		<div class="small-container">
+		<div class="container">
 			<div class="banner">
 				<h1>Michael ten Den</h1>
 				<p class="lead-subtitle">Jack of all trades, master of none.</p>
@@ -17,7 +17,7 @@
 	<?php endwhile; endif; ?>
 
 	<section class="latest">
-		<div class="small-container">
+		<div class="container">
 			<h4>Latest posts</h4>
 
 			<ul>
@@ -44,7 +44,7 @@
 	</section>
 
 	<!-- <section class="popular">
-		<div class="small-container">
+		<div class="container">
 
 			<h4>Popular posts</h4>
 
