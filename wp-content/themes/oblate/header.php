@@ -33,7 +33,7 @@
 			m.parentNode.insertBefore(a, m)
 		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-		ga('create', 'UA-42068444-1', 'auto');
+		ga('create', 'UA-96599848-1', 'auto');
 		ga('send', 'pageview');
 
 	</script>
@@ -41,6 +41,14 @@
 	<?php endif; ?>
 
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+  		(adsbygoogle = window.adsbygoogle || []).push({
+   			google_ad_client: "ca-pub-5951709428846145",
+    			enable_page_level_ads: true
+  		});
+	</script>
 
 </head>
 
