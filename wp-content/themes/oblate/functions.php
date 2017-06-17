@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Functions for michaeltenden.com
+ * Functions for michaeltenden.nl
  */
 
 /** 
