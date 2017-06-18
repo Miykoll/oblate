@@ -55,7 +55,7 @@
 <body>
 
 	<nav class="navigation">
-					<a href="<?php echo site_url(); ?>" class="title current-menu-item">Michael ten Den</a>
+					<a href="<?php echo site_url(); ?>" class="title">Michael ten Den</a>
 
 <!-- 		<div class="home">
 			<div>
