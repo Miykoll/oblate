@@ -54,15 +54,15 @@
 
 <body>
 
-	<?php get_sidebar(); ?>
-
 	<nav class="navigation">
-		<div class="home">
+					<a href="<?php echo site_url(); ?>" class="title current-menu-item">Michael ten Den</a>
+
+<!-- 		<div class="home">
 			<div>
 				<a id="toggle"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a>
 			</div>
 		</div>
-
+ -->
 		<?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?>
 
 		<div class="search">
