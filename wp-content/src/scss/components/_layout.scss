@@ -356,7 +356,7 @@ a.close {
 
 @include small-breakpoint {
 	.landing-header {
-		padding: 2.5rem 0;
+		padding: 2.5rem 0 1.5rem;
 		h1 {
 			font-size: 3rem;
 		}
