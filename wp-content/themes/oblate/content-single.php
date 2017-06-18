@@ -34,3 +34,4 @@
 			</div>
 	</section>
 </article>
+<?php include 'get_latest_post.php' ?>

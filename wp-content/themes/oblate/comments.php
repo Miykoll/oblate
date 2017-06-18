@@ -4,11 +4,10 @@
 
 <section id="comments" class="comments-area">
 	<div class="container">
-
 		<?php	comment_form( array(
     					'title_reply' => 'Write a response'
 						)); ?>
-
+		
 			<?php if ( have_comments() ) : ?>
 
 			<h3 class="comments-title">
