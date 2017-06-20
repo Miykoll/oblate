@@ -28,13 +28,12 @@
 	<div class="portfolio-example">
 		<a href="<?php echo the_permalink(); ?>">
 			<div class="portfolio-item">
-				<img src="<?php echo the_post_thumbnail_url( 'large' ); ?>" alt="<?php the_title(); ?>">
+				<img src="<?php echo the_post_thumbnail_url( 'small' ); ?>" alt="<?php the_title(); ?>">
 				<h3>
 					<?php the_title(); ?>
 				</h3>
 				<?php the_excerpt(); ?>
-				<p class="more-info">Design / Development</p>
-			</div>
+				</div>
 		</a>
 	</div>
 
