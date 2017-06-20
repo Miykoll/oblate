@@ -55,7 +55,7 @@
 <body>
 
 	<nav class="navigation">
-					<a href="<?php echo site_url(); ?>" class="title">Michael ten Den</a>
+					<a href="<?php echo site_url(); ?>" class="title home">Michael ten Den</a>
 
 		<?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?>
 
