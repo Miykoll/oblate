@@ -1,17 +1,26 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-<header class="page-header">
-	<div class="small-container">
+<article>
+<header class="single-header">
+	<div class="container">
 		<h1>
 			<?php the_title(); ?>
 		</h1>
 	</div>
 </header>
 
-<?php the_content(); ?>
-
+<section class="single-body">
+	<div class="container">
+		<?php if ( has_excerpt() ) { ?>
+			<div class="lead">
+				<?php the_excerpt(); ?>
+			</div>
+		<?php } ?>
+		<?php the_content(); ?>
+	</div>
+</section>
+</article>
 <?php	endwhile; endif; ?>
 
 <?php get_footer(); ?>
