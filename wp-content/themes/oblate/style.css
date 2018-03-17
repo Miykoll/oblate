@@ -8,3 +8,20 @@ Version: 2.5.0
 Licence: MIT
 Tags: minimalist, light, blog, development
 */
+
+iframe {
+  height: 300px;
+  width: 668px;
+  resize: both;
+  overflow: auto;
+}
+
+.tags a {
+  	background: #bfbfbf;
+	&:hover,
+	&:focus,
+	&:active {
+		background: darken(#bfbfbf, 5%);
+		border: 1px solid darken($border, 5%);
+		text-decoration: none;
+}

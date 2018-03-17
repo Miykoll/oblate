@@ -28,10 +28,8 @@
 
 			if ($projects->have_posts() ) :  while ($projects->have_posts() ) :$projects->the_post(); ?>
 
-			<?php get_template_part( 'content', get_post_format() ); ?>
-
+			<?php get_template_part( 'content-project', get_post_format() ); ?>
 			<?php	endwhile; ?>
-
 		</div>
 
 		<div class="posts-links">

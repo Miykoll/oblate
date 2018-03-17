@@ -26,6 +26,8 @@
 
 			<?php the_tags( '<div class="tags">', '', '</div>' ); ?>
 
+			<?php echo do_shortcode('[post-views]'); ?>
+
 		</div>
 		
 		<!-- <div class="dark-box"> -->

@@ -33,7 +33,9 @@
 					<?php the_title(); ?>
 				</h3>
 				<?php the_excerpt(); ?>
-				<p class="more-info">Design / Development</p>
+				<p class="more-info">
+					<?php the_category(); ?>
+				</p>
 			</div>
 		</a>
 	</div>

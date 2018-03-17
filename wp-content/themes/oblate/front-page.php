@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="banner">
 				<h1>Michael ten Den</h1>
-				<p class="lead-subtitle">Jack of all trades, master of none.</p>
+				<p class="lead-subtitle">Jack of all trades</p>
 				<?php the_content(); ?>
 			</div>
 		</div>
